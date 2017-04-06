@@ -23,16 +23,18 @@ The basic site folder structure should be organized as such:
 ## Whitespace and Indentation
 
 - use spaces instead of tabs
-  - use the following preferences in Sublime Text:
+- use two spaces for indentation
 
-        // Number of spaces a tab is considered equal to
-        "tab_size": 2,
-        // Insert spaces when tab is pressed
-        "translate_tabs_to_spaces": true,
-        // Force indentation rules instead of detecting pre-existing ones
-        "detect_indentation": false,
-        // Draw all white space and invisible characters
-        "draw_white_space": "all",
+Use the following preferences in Sublime Text:
+
+    // Number of spaces a tab is considered equal to
+    "tab_size": 2,
+    // Insert spaces when tab is pressed
+    "translate_tabs_to_spaces": true,
+    // Force indentation rules instead of detecting pre-existing ones
+    "detect_indentation": false,
+    // Draw all white space and invisible characters
+    "draw_white_space": "all",
 
 ## Language Specific Conventions
 
@@ -42,7 +44,12 @@ The basic site folder structure should be organized as such:
 
 The DOCTYPE should always be included as the very first line in every HTML file and written as such:
 
-`<!DOCTYPE html>`
+```html
+  <!DOCTYPE html>
+  <html>
+    ...
+  </html>
+```
 
 Although the [DOCTYPE is case insensitive](https://www.w3.org/TR/html5/syntax.html#the-doctype), for matters of [backwards compatibility with XML](https://mathiasbynens.be/notes/xhtml5#doctype), it should be uppercased.
 
@@ -55,3 +62,9 @@ e.g. `<img src="foo.jpg">` and `<hr>`
 As per the [W3C’s spec](https://www.w3.org/TR/html5/syntax.html#void-elements):
 
 > Void elements only have a start tag; end tags must not be specified for void elements.”
+
+#### Attributes
+
+Use double quotes when adding content to attributes.
+
+e.g. `<img src="foo.jpg">` instead of `<img src='foo.jpg'>`
