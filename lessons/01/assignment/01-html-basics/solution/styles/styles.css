@@ -1,0 +1,22 @@
+body {
+  background: #F6F6F6;
+  border-top: 5px solid #000;
+  border-bottom: 5px solid #000;
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #030609;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #030609;
+}
+
+p {
+  font-family: Georgia, serif;
+}
