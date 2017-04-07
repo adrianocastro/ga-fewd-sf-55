@@ -2,32 +2,59 @@
 
 ## Description
 
-We’ll continue to brush up our researching skills to solidy some old and new concepts.
+A hot, new NY Tech Startup, Relaxr, has approached you to help them develop a new landing page for their company.
 
-This time we turn to CSS fundamentals as we build a strong foundation to get started with more advanced styling.
+See below for the full design mocks.
 
-Add as much detail as you can and feel free to add code examples.
+They've also provided you with [sample copy](starter_code/sample_copy.txt) that you can use, as well as [sample images](starter_code/images) for the backgrounds and icons.
+
+A [basic HTML file](starter_code/index.html), based on the HTML template shared in the past, is also provided.
+
+Your job is to take these files and turn it into a single landing page as per the design.
 
 ---
 
-## Questions
+### Design Mocks
 
-**NOTE:** For all answers, **please list your sources** and make a note of what you looked for and if/how you changed your search query to get to your answer.
+* Relaxr Homepage
 
-Define CSS Box Model, and demonstrate the ability to properly manipulate the "box" around tags.
+![Relaxr Homepage](design_mocks/relaxr_landing.jpg)
 
-1. Why is it important to keep HTML and CSS separate?
-1. How do you add comments in CSS?
-1. What are the normalize.css and reset.css files? What are they used for?
-1. What is the CSS Box Model?
-1. What is the difference between an inline and block-level element?
+---
+
+## Real-World Applications
+
+- Build a website from a design mock
+- Create a solid HTML document focusing on semantics and good structure
+- Add styling using CSS
+- Leverage external CSS assets that can be shared across multiple pages
+- Use CSS Resets to "normalize" the rendering of your page across different browsers
+- Use the Box Model to style element borders and structure your page
+
+---
+
+## Technical Requirements
+
+- Clear, semantic page structure
+- Valid and complete HTML
+- Clear separation of content (HTML) and presentation (CSS)
+- Adherence to coding conventions (naming conventions, folder structure, indentation, etc)
+- Use IDs and Classes to select and style elements on the page
+
+### Bonus
+
+- Use a CSS Normalize/Reset file in addition to your style.css file to style the page
+- Style your text with the Google Fonts provided by your style guide
+
+---
+
+## Resources
+
+- [Box Model explanation from HTML Dog](http://www.htmldog.com/guides/css/beginner/margins/)
+- [Box Model Breakdown](http://learn.shayhowe.com/html-css/opening-the-box-model/)
 
 ---
 
 ## Evaluation / Submission
 
-Please submit your answers via your class GitHub repository in a [Markdown](https://guides.github.com/features/mastering-markdown/) or plain text file. No Word Document, Apple Pages or any other word processing file formats.
-
-The file should be inside the `assignments/03-css-fundamentals` folder.
-
-The instructional team will grade each technical requirement and provide a numeric grade on a scale: does not meet expectations (0); meets expectations (1); exceeds expectations (2).
+Students will create a new repository on GitHub called "homework-landingpage" and push their code to it when they are ready to submit. Instructional team should evaluate against the solution code and the student's use of technical elements. They will provide a numeric grade on a scale: does not meet expectations (0); meets expectations (1); exceeds expectations (2). Bonus sections are completely optional. The maximum possible score on this assignment is 12/12.
