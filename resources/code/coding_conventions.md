@@ -68,3 +68,20 @@ As per the [W3C’s spec](https://www.w3.org/TR/html5/syntax.html#void-elements)
 Use double quotes when adding content to attributes.
 
 e.g. `<img src="foo.jpg">` instead of `<img src='foo.jpg'>`
+
+Don’t include unnecessary type attributes.
+
+All browsers expect scripts to be JavaScript and styles to be CSS, as such, you can leave off the `type` attribute. This should suffice:
+
+```html
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="scripts/scripts.js"></script>
+```
+
+#### Images
+
+Images should **always** have textual alternatives. These are provided via the `alt` attribute.
+
+The textual alternatives should make sense considering the purpose of the image in the context of the page. Phrases like “Image of …” should be avoided.
+
+For iconic images that are redundant with text next to them or purely decorative please use `alt=""`.
