@@ -1,0 +1,17 @@
+#notification {
+  background: #EEE;
+  padding: 10px;
+  border: 1px solid #CCC;
+}
+
+.message {
+  background: #FFE;
+  padding: 15px;
+  border: 2px solid #CCB;
+  margin: 10px 0;
+}
+
+.error {
+  background: #FEE;
+  border-color: #C66;
+}
