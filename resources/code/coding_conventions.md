@@ -53,6 +53,37 @@ The DOCTYPE should always be included as the very first line in every HTML file 
 
 Although the [DOCTYPE is case insensitive](https://www.w3.org/TR/html5/syntax.html#the-doctype), for matters of [backwards compatibility with XML](https://mathiasbynens.be/notes/xhtml5#doctype), it should be uppercased.
 
+#### Declaring language and character set
+
+##### Language declaration
+
+**Always use a [language attribute](https://www.w3.org/International/questions/qa-html-language-declarations) on the `html` element**. This is inherited by all other elements, and so will set a default language for the text in the document `head` element.
+
+Note that you should use the `html` element rather than the `body` element, since the `body` element doesn't cover the text inside the document's `head` element.
+
+```html
+  <!DOCTYPE html>
+  <html lang="en">
+    ...
+  </html>
+```
+
+##### Character encoding declaration
+
+**Always define the character encoding via the `meta` [`charset`](https://www.w3.org/International/questions/qa-what-is-encoding) in the `head`**. It’s best to declare it right after opening the `head` tag so it’s done before any content on the page (note: the `title` in the `head` is already considered content for the page).
+
+The **preferred character encoding is UTF-8**. This encoding can support many languages and can accommodate pages and forms in any mixture of those languages.
+
+```html
+  <!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <title>Page Title After Charset</title>
+    ...
+  </html>
+```
+
 #### Closing Tags
 
 Don’t use closing tags for void elements.
