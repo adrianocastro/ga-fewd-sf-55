@@ -1,0 +1,6 @@
+In class we covered Positioning and Floats using live examples on CodePen.
+
+See the following pens:
+
+- Understanding Positioning: https://codepen.io/adrianocastro/pen/YVpxNL
+- Understanding Floats: https://codepen.io/adrianocastro/pen/VbmzxG
