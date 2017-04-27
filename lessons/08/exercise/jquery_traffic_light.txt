@@ -1,0 +1,3 @@
+In class we reviewed the Traffic Light exercise (https://codepen.io/nevan/pen/shtLA) and translated the JavaScript to use jQuery:
+
+- https://codepen.io/adrianocastro/pen/BRQxpb
