@@ -2,7 +2,7 @@
 
 ## Description
 
-Using the [starter code)(starter_code/) provided, implement the color scheme switching as [demoed in the solution file](solution/index.html).
+Using the [starter code](starter_code/) provided, implement the color scheme switching as [demoed in the solution file](solution/index.html).
 
 ---
 
