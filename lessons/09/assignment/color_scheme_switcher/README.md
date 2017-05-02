@@ -31,7 +31,7 @@ Using the [starter code](starter_code/) provided, implement the color scheme swi
 ## Resources
 
 - [Alternative Style: Working With Alternate Style Sheets](https://alistapart.com/article/alternate)
-- [How do I switch my CSS stylesheet using jQuery?]((http://htmldog.com/references/css/selectors/)
+- [How do I switch my CSS stylesheet using jQuery?](http://htmldog.com/references/css/selectors/)
 
 ---
 
