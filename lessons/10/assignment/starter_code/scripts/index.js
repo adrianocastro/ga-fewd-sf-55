@@ -13,5 +13,3 @@ if (age >= 25) {
 } else {
   // TODO: Insert message into message placeholder
 }
-
-$('#message').text(alertMessage);
