@@ -20,6 +20,13 @@ Using the [starter code](starter_code/) provided, implement the Ice Cream orderi
 - Use advanced selectors to select and style elements on the page
 - Keep the JavaScript and CSS separate by making the layout changes using CSS and leveraging classes/IDs instead of directly manipulating the styles using JavaScript
 
+## Bonus
+
+- Use advanced selectors to target list of flavors and scoops
+- Use buttons for flavors and scoops and leverage `disable` attribute to mark an inactive button
+- Use `data-*` attribute to store/read label
+- Use anonymous function expressions as arguments for the click handlers
+
 ---
 
 ## Evaluation / Submission
