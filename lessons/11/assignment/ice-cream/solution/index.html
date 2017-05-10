@@ -5,24 +5,32 @@
     <title>Title Goes Here</title>
     <meta name="description" content="Site description goes here">
     <meta name="keywords" content="keywords, go, here">
+    <style>
+      #flavor li {
+        color: red;
+      }
+    </style>
   </head>
   <body>
     <!-- Page Content Goes Here -->
     <h1>Ice Cream Shop</h1>
     <h2>Choose a Flavor</h2>
-    <ul>
+    <ul id="flavor">
       <li>chocolate</li>
       <li>strawberry</li>
       <li>vanilla</li>
+      <li>mint</li>
+      <li>raspberry</li>
     </ul>
     <h2>How Many Scoops?</h2>
-    <ul>
-      <li>1 scoop</li>
-      <li>2 scoops</li>
-      <li>3 scoops</li>
+    <ul id="scoops">
+      <li>1</li>
+      <li>2</li>
+      <li>3</li>
     </ul>
     <h2>Order Summary:</h2>
-    <p id="order">Coming right up! One {flavor} ice cream cone with {numberScoops} scoops.</p>
+    <p id="order">Coming right up! One <span id="picked-flavor">{flavor}</span> ice cream cone with <span id="picked-num-scoops">{numScoops}</span> scoops.</p>
+    <script src="scripts/jquery-3.2.1.min.js"></script>
     <script src="scripts/index.js"></script>
   </body>
 </html>
