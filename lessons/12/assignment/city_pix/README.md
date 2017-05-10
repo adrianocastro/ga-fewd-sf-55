@@ -20,14 +20,13 @@ JavaScript is powerful: we're able to take user interaction and information and 
 ## Technical Requirements 
 
 - Call ```$.val()``` on inputs to get the string value of your user's input
-- Store user input in ```var city```
-- Use $.on(submit) or ```$.click``` to figure out when the user clicks the "submit" button
+- Store user input in ```var cityName```
+- Listen for the form submit event
 - Create ```if / else if / else``` conditionals to control the flow of your application
+- Use the ```||``` operator in your conditionals to allow for multiple string values to execute ```if/else if``` statement code
 - Write at least six different lines of pseudocode and display them inline as JavaScript comments
 - Prevent a form submission using the ```event.preventDefault()``` function
 - Use the ```$.ready()``` handler to delay your code from executing until all DOM assets have been loaded
-- Get the first element from an attribute name using ```$.attr()```
-- Use the ```||``` operator in your conditionals to allow for multiple string values to execute ```if/else if``` statement code
 - If a user submits:
 
   - "New York" or "New York City" or "NYC" make the background of the page nyc.jpg
@@ -48,6 +47,8 @@ After entering "NYC" and submitting:
 
 - Remove extra spaces or new lines that users or the browser might add before or after their input 
 - Reset the user input field after it is submitted
+- Use a ```switch``` statement instead of an ```if``` statement
+- Alert 'City not supported' if city not in the list of supported cities
 
 ---
 
