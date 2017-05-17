@@ -33,6 +33,16 @@ We also included a [working demo](solution/index.html) for reference.
 
 ---
 
+## Resources
+
+- [HTML Dog: Forms](http://htmldog.com/guides/html/beginner/forms/)
+- [HTML Dog: Accessible Forms](http://htmldog.com/guides/html/advanced/forms/)
+- [MDN: Styling HTML Forms](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Forms/Styling_HTML_forms)
+- [Webdesign.com: Form Validation with CSS3/HTML5](http://webdesign.tutsplus.com/tutorials/bring-your-forms-up-to-date-with-css3-and-html5-validation--webdesign-4738)
+- [CSS-Tricks.com: Tips for Creating Great Web Forms](http://css-tricks.com/tips-for-creating-great-web-forms/)
+
+---
+
 ## Evaluation / Submission
 
 Please submit your work via your class GitHub repository.
