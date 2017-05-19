@@ -1,0 +1,11 @@
+label {
+  cursor: pointer;
+}
+
+:checked + span {
+  text-decoration: line-through; 
+}
+
+#template {
+  display: none;
+}
