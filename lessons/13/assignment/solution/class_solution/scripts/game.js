@@ -66,7 +66,7 @@ $('document').ready(function() {
   // and updating the play status text.
   // In order to do so, we tell it who the winner is and the details of
   // the userPlay and botPlay by passing that information as arguments
-  var scoreKeeper = function(winner, userPlay, botPlay) {
+  var scoreKeeper = function(winner, userOption, botOption) {
     // define result from human point-of-view
     if (winner === 'human') {
       result = 'win';
@@ -81,8 +81,8 @@ $('document').ready(function() {
     }
 
     // Update the play status
-    $('#status').text('You played ' + userPlay
-                      + '. The bot played ' + botPlay
+    $('#status').text('You played ' + userOption
+                      + '. The bot played ' + botOption
                       + '. You ' + result + '.');
 
     // Update the scoreboard
