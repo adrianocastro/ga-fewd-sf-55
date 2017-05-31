@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  margin-bottom: 20px;
+}
+ul {
+  display: flex; 
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+ul li {
+  padding: 20px;
+  border: 1px solid red;
+  text-align: center;
+  list-style-type: none;
+}
+
+@media screen and (max-width: 450px) {
+  ul {
+    display: none;
+  }
+  ul li {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 450px) {
+  #menu-toggler {
+    display: none;
+  }
+}
