@@ -1,21 +1,35 @@
-* {
-  margin: 0;
-  padding: 0;
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  padding: 20px;
 }
 
 section {
   margin-bottom: 20px;
 }
+
 ul {
   display: flex; 
   justify-content: space-between;
   flex-wrap: wrap;
+  padding: 0;
 }
+
 ul li {
   padding: 20px;
   border: 1px solid red;
   text-align: center;
   list-style-type: none;
+}
+
+button {
+  margin: 0;
+  padding: 0;
 }
 
 @media screen and (max-width: 450px) {

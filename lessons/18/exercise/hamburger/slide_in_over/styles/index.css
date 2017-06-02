@@ -1,0 +1,62 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+ul {
+  display: flex; 
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0;
+  background: white;
+}
+
+ul li {
+  padding: 20px;
+  border: 1px solid red;
+  text-align: center;
+  list-style-type: none;
+}
+
+button {
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  top: 20px;
+  left: 20px;
+}
+
+@media screen and (max-width: 450px) {
+  ul {
+    position: fixed;
+    top: 35px;
+    left: -250px;
+    width: 50%;
+    transition: left 0.2s;
+  }
+  ul.open {
+    left: 20px;
+  }
+  ul li {
+    width: 100%;
+  }
+  section {
+    margin-top: 50px;
+  }
+}
+
+@media screen and (min-width: 450px) {
+  #menu-toggler {
+    display: none;
+  }
+}

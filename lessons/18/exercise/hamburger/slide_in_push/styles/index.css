@@ -1,0 +1,114 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+ul {
+  display: flex; 
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0;
+  background: white;
+}
+
+ul li {
+  padding: 20px;
+  border: 1px solid red;
+  text-align: center;
+  list-style-type: none;
+}
+
+#menu-toggler {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  width: 35px;
+  height: 30px;
+  /* Hide button default styles */
+  background: transparent;
+  border: none;
+  /* Always show pointer when mouse over */
+  cursor: pointer;
+}
+
+#menu-toggler span {
+  position: absolute;
+  left: 0;
+  /* Vertical align span in button */
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* Create hamburger layers */
+#menu-toggler span, 
+#menu-toggler span:before,
+#menu-toggler span:after {
+  display: block;
+  position: absolute;
+  content: '';
+  height: 5px;
+  width: 100%;
+  background: black;
+  transition: all 200ms ease-in-out;
+}
+#menu-toggler span:before {
+  top: -10px;
+}
+#menu-toggler span:after {
+  bottom: -10px; 
+}
+
+/* Active states for hamburger menu */
+#menu-toggler.active span {
+  background-color: transparent;
+}
+#menu-toggler.active span:before {
+  transform: translate3d(0,10px,0) rotate(45deg)
+}
+#menu-toggler.active span:after {
+  transform: translate3d(0,-10px,0) rotate(-45deg)
+}
+
+.content-wrapper {
+  position: relative;
+  left: 0;
+  transition: left 0.2s;
+}
+
+@media screen and (max-width: 450px) {
+  ul {
+    position: fixed;
+    top: 45px;
+    left: -250px;
+    width: 200px;
+    transition: left 0.2s;
+  }
+  .menu-open ul {
+    left: 20px;
+  }
+  ul li {
+    width: 100%;
+  }
+  .menu-open .content-wrapper {
+    left: 220px;
+  }
+  section {
+    margin-top: 50px;
+  }
+}
+
+@media screen and (min-width: 450px) {
+  #menu-toggler {
+    display: none;
+  }
+}
